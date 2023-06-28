@@ -30,26 +30,32 @@
                     <li class="nav-item dropdown">
                         <a href="#" class="nav-link active dropdown-toogle" role="button" data-bs-toggle="dropdown" aria-expanded="false">More</a>
                         <ul class="dropdown-menu">
-                            <li><a href="login.html" class="dropdown-item active">Login</a></li>
-                            <li><a href="sign_in.html" class="dropdown-item ">Sign In</a></li>
+                            <li><a href="login.html" class="dropdown-item">Login</a></li>
+                            <li><a href="sign_in.html" class="dropdown-item active">Sign In</a></li>
                         </ul>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+    <!-- form sign_in -->
 
-<!-- form Login -->
     <div class="container">
-        <h1>Login</h1>
+        <h1>Sign In</h1>
         <form action="login.php" method="post">
+            <label for="nama">Nama:</label><br>
+            <input type="text" name="nama" id="nama">
+            <br>
             <label for="email">Email:</label><br>
             <input type="email" name="email" id="email">
+            <br>
+            <label for="umur">Umur:</label><br>
+            <input type="number" name="umur" id="umur">
             <br>
             <label for="password">Password:</label><br>
             <input type="password" name="password" id="password">
             <br>
-            <button>Login</button>
+            <button>Sign In</button>
         </form>
     </div>
 </body>
